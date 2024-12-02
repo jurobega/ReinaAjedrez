@@ -32,7 +32,7 @@ public class Consola {
         do {
             System.out.println("Elige un color: ");
             opcion = Entrada.entero();
-        }while (opcion < 1 || opcion > 2 );
+        }while (opcion < 0 || opcion > 1 );
         return Color.values()[opcion];
     }
 
